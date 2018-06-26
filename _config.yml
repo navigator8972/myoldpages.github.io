@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hang Yin / Personal Website"
+title                    : "Hang Yin"
 title_separator          : "-"
 name                     : &name "Hang Yin"
 description              : &description "PhD in Roboitcs and Artificial Intelligence"
