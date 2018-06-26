@@ -7,8 +7,9 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+Access my CV PDF from [link](https://drive.google.com/open?id=1iHGM4os7kymsW__CqagNBeowFtXCZIxy).
 
+---
 Education
 ======
 * B.S. in Github, Github University, 2012
@@ -57,3 +58,4 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+---
