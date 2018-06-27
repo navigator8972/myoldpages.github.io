@@ -2,7 +2,7 @@
 title: "Learning Cost Function and Trajectory for Robotic Writing Motion"
 collection: publications
 permalink: /publication/2014-11-01-humanoids2014
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'This paper is about probabilistic inference approach for learning cost function and trajectories, developing compliant motion for robotic handwriting.'
 date: 2014-11-01
 venue: 'HUMANOIDS, 2014'
 paperurl: 'http://lasa.epfl.ch/publications/uploadedFiles/humanoids14_hyin_final.pdf'
