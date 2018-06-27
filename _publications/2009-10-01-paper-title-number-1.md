@@ -1,15 +1,28 @@
 ---
-title: "Paper Title Number 1"
+title: "Learning Cost Function and Trajectory for Robotic Writing Motion"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+date: 2014-11-01
+venue: 'In Proceedings of the IEEE-RAS International Conference on Humanoid Robots (HUMANOIDS), Madrid, Spain'
+paperurl: 'http://lasa.epfl.ch/publications/uploadedFiles/humanoids14_hyin_final.pdf'
+citation: 'H. Yin, A. Paiva and A. Billard, Learning Cost Function and Trajectory for Robotic Writing Motion, In Proceedings of the IEEE-RAS International Conference on Humanoid Robots (HUMANOIDS), Madrid, Spain, 2014'
 ---
 This paper is about the number 1. The number 2 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Download paper here](http://lasa.epfl.ch/publications/uploadedFiles/humanoids14_hyin_final.pdf)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+
+@inproceedings{hyin2014Hum,
+
+author="Yin, H. and Paiva, A. and Billard, A",
+
+title="Learning Cost Function and Trajectory for Robotic Writing Motion",
+
+booktitle="Proc. {IEEE} Intl Conf. on Humanoid Robots ({H}umanoids)",
+
+year="2014",
+
+address="Madrid, Spain",
+
+}
