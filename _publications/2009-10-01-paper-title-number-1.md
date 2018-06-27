@@ -6,7 +6,7 @@ excerpt: 'This paper is about probabilistic inference approach for learning cost
 date: 2014-11-01
 venue: 'HUMANOIDS'
 paperurl: 'http://lasa.epfl.ch/publications/uploadedFiles/humanoids14_hyin_final.pdf'
-citation: '**H. Yin**, A. Paiva and A. Billard, Learning Cost Function and Trajectory for Robotic Writing Motion, In Proceedings of the IEEE-RAS International Conference on Humanoid Robots (HUMANOIDS), Madrid, Spain, 2014'
+citation: '\textbf{H. Yin}, A. Paiva and A. Billard, Learning Cost Function and Trajectory for Robotic Writing Motion, In Proceedings of the IEEE-RAS International Conference on Humanoid Robots (HUMANOIDS), Madrid, Spain, 2014'
 ---
 This paper is about probabilistic inference approach for learning cost function and trajectories, developing compliant motion for robotic handwriting.
 
