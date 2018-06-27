@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2014-11-01-humanoids2014
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2014-11-01
-venue: 'HUMANOIDS'
+venue: 'HUMANOIDS, 2014'
 paperurl: 'http://lasa.epfl.ch/publications/uploadedFiles/humanoids14_hyin_final.pdf'
 citation: 'H. Yin, A. Paiva and A. Billard, Learning Cost Function and Trajectory for Robotic Writing Motion, In Proceedings of the IEEE-RAS International Conference on Humanoid Robots (HUMANOIDS), Madrid, Spain, 2014'
 ---
