@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/2014-11-01-humanoids
 venue: "IEEE-RAS International Conference on Humanoid Robots (HUMANOIDS)"
-date: 2014-11-01
+date: 2014-11-20
 location: "Madrid, Spain"
 ---
 
