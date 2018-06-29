@@ -244,7 +244,7 @@ defaults:
   # _research
   - scope:
       path: ""
-      type: pages
+      type: research
     values:
       layout: single
       author_profile: true
