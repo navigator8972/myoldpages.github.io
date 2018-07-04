@@ -36,7 +36,7 @@ Another type of prior is explored to bridge task examples of different modalitie
 The prior about this modal associativity can be enforced in the latent space of two deep generative models:
 
 <p align="center">
-<img src="/images/research/vaeassoc.png" width=500 align="center"/>
+<img src="/images/research/vaeassoc.png" width=500>
  </p>
  
  The latent space can thus be considered as overlapped manifolds that intepolate both letter images and motions:
