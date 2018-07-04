@@ -12,7 +12,7 @@ Improving data efficiency is one of the central challenges in robot learning bec
 For one example, imagine the robot accesses a set of rolling ball data in the form of video streams. It is apparent that, despite of the high-dimensionality of raw data, the generation of rolling-ball pixels is governed by a low-dimensional (latent) process. The latent variables and their temporal relation can be simultaneously extracted through unsupervised learning with a variational treatment:
 
 <p align="center">
-<img src="/images/research/vaedyn.png" width=600>
+<img src="/images/research/vaedyn.png" width=600  alt="">
  </p>
 
 The learning routine ends with a posterior model which transforms raw data sequence to latent variables, a prior model which predicts the next latent variable if there is no observation, and a generation model which eventually allows to sample sequences similar to the learned data. Such an idea is not restricted to this rolling ball example. It is actually applicable to another example with an underlying dynamical process, e.g., the generation of dynamical handwriting images:
@@ -36,7 +36,7 @@ Another type of prior is explored to bridge task examples of different modalitie
 The prior about this modal associativity can be enforced in the latent space of two deep generative models:
 
 <p align="center">
-<img src="/images/research/vaeassoc.png" width=500>
+<img src="/images/research/vaeassoc.png" width=500  alt="">
  </p>
  
  The latent space can thus be considered as overlapped manifolds that intepolate both letter images and motions:
@@ -47,6 +47,6 @@ The prior about this modal associativity can be enforced in the latent space of 
  
  Exploiting such an associativity, one can obtain an end-to-end controller which infers handwriting motion from letter images:
  
- <img src="https://raw.githubusercontent.com/navigator8972/vae_assoc/master/fig/writing_test_camera.png" width=400> <img src="https://raw.githubusercontent.com/navigator8972/vae_assoc/master/fig/writing_incomplete_canvas.png" width=380>
+ <img src="https://raw.githubusercontent.com/navigator8972/vae_assoc/master/fig/writing_test_camera.png" width=400  alt=""> <img src="https://raw.githubusercontent.com/navigator8972/vae_assoc/master/fig/writing_incomplete_canvas.png" width=380  alt="">
  
  Note the full generative model of image modality can help when the input is not complete: one can first explore in the latent space to find the variable that complements the occluded part and then generate arm motion accordingly.
