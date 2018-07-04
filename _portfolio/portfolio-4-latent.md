@@ -17,12 +17,16 @@ For one example, imagine the robot accesses a set of rolling ball data in the fo
 
 The learning routine ends with a posterior model which transforms raw data sequence to latent variables, a prior model which predicts the next latent variable if there is no observation, and a generation model which eventually allows to sample sequences similar to the learned data. Such an idea is not restricted to this rolling ball example. It is actually applicable to another example with an underlying dynamical process, e.g., the generation of dynamical handwriting images:
 
+<p align="center">
 <img src="https://raw.githubusercontent.com/navigator8972/vae_dyn/master/figs/0_0.gif" width="100"><img src="https://raw.githubusercontent.com/navigator8972/vae_dyn/master/figs/3_0.gif" width="100"><img src="https://raw.githubusercontent.com/navigator8972/vae_dyn/master/figs/6_0.gif" width="100"><img src="https://raw.githubusercontent.com/navigator8972/vae_dyn/master/figs/9_0.gif" width="100"><img src="https://raw.githubusercontent.com/navigator8972/vae_dyn/master/figs/0_1.gif" width="100"><img src="https://raw.githubusercontent.com/navigator8972/vae_dyn/master/figs/U_0.gif" width="100">
+ </p>
 
 Meanwhile, the extracted dynamics might be useful in addressing relevant tasks. For instance, the prior knowledge about the rolling ball movement could facilitate the learning of a ball-striking task, in which the robot needs to anticipate the ball trajectory and move a paddle to hit the ball towards a target. The latent variable representation makes the task learning much easier in a low-dimensional space:
 
+<p align="center">
 <img src="https://raw.githubusercontent.com/navigator8972/roboschool_baxterstriker/master/figs/sample_1.gif" width="150"><img src="https://raw.githubusercontent.com/navigator8972/roboschool_baxterstriker/master/figs/sample_2.gif" width="150"><img src="https://raw.githubusercontent.com/navigator8972/roboschool_baxterstriker/master/figs/sample_3.gif" width="150"><img src="https://raw.githubusercontent.com/navigator8972/roboschool_baxterstriker/master/figs/sample_4.gif" width="150">
-
+ </p>
+ 
 Note the robot does not need to always have the access to the visual input. In fact, the prior model allows robot to have an internal prediction about the future sensory input after the camera is switched off and still scores the goal with a model-based control.
 
 **Priors on Data Modalities**
@@ -36,6 +40,7 @@ The prior about this modal associativity can be enforced in the latent space of 
  </p>
  
  The latent space can thus be considered as overlapped manifolds that intepolate both letter images and motions:
+ 
  <p align="center">
 <img src="/images/research/VAEAssoc_ViewerDemoTest.gif" width=600>
  </p>
