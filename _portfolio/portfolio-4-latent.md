@@ -47,6 +47,6 @@ The prior about this modal associativity can be enforced in the latent space of 
  
  Exploiting such an associativity, one can obtain an end-to-end controller which infers handwriting motion from letter images:
  
- <img src="https://raw.githubusercontent.com/navigator8972/vae_assoc/master/fig/writing_incomplete_canvas.png" width=380>
+ <img src="https://raw.githubusercontent.com/navigator8972/vae_assoc/master/fig/writing_test_camera.png" width=400> <img src="https://raw.githubusercontent.com/navigator8972/vae_assoc/master/fig/writing_incomplete_canvas.png" width=380>
  
  Note the full generative model of image modality can help when the input is not complete: one can first explore in the latent space to find the variable that complements the occluded part and then generate arm motion accordingly.
