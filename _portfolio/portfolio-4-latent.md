@@ -19,13 +19,13 @@ The learning routine ends with a posterior model which transforms raw data seque
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/navigator8972/vae_dyn/master/figs/0_0.gif" width="100"><img src="https://raw.githubusercontent.com/navigator8972/vae_dyn/master/figs/3_0.gif" width="100"><img src="https://raw.githubusercontent.com/navigator8972/vae_dyn/master/figs/6_0.gif" width="100"><img src="https://raw.githubusercontent.com/navigator8972/vae_dyn/master/figs/9_0.gif" width="100"><img src="https://raw.githubusercontent.com/navigator8972/vae_dyn/master/figs/0_1.gif" width="100"><img src="https://raw.githubusercontent.com/navigator8972/vae_dyn/master/figs/U_0.gif" width="100">
- </p>
+</p>
 
 Meanwhile, the extracted dynamics might be useful in addressing relevant tasks. For instance, the prior knowledge about the rolling ball movement could facilitate the learning of a ball-striking task, in which the robot needs to anticipate the ball trajectory and move a paddle to hit the ball towards a target. The latent variable representation makes the task learning much easier in a low-dimensional space:
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/navigator8972/roboschool_baxterstriker/master/figs/sample_1.gif" width="150"><img src="https://raw.githubusercontent.com/navigator8972/roboschool_baxterstriker/master/figs/sample_2.gif" width="150"><img src="https://raw.githubusercontent.com/navigator8972/roboschool_baxterstriker/master/figs/sample_3.gif" width="150"><img src="https://raw.githubusercontent.com/navigator8972/roboschool_baxterstriker/master/figs/sample_4.gif" width="150">
- </p>
+</p>
  
 Note the robot does not need to always have the access to the visual input. In fact, the prior model allows robot to have an internal prediction about the future sensory input after the camera is switched off and still scores the goal with a model-based control.
 
@@ -37,16 +37,16 @@ The prior about this modal associativity can be enforced in the latent space of 
 
 <p align="center">
 <img src="{{site.baseurl}}/images/research/vaeassoc.png" width=500  alt="">
- </p>
+</p>
  
- The latent space can thus be considered as overlapped manifolds that intepolate both letter images and motions:
+The latent space can thus be considered as overlapped manifolds that intepolate both letter images and motions:
  
  <p align="center">
 <img src="{{site.baseurl}}/images/research/VAEAssoc_ViewerDemoTest.gif" width=600>
- </p>
+</p>
  
- Exploiting such an associativity, one can obtain an end-to-end controller which infers handwriting motion from letter images:
+Exploiting such an associativity, one can obtain an end-to-end controller which infers handwriting motion from letter images:
  
- <img src="https://raw.githubusercontent.com/navigator8972/vae_assoc/master/fig/writing_test_camera.png" width=400  alt=""> <img src="https://raw.githubusercontent.com/navigator8972/vae_assoc/master/fig/writing_incomplete_canvas.png" width=380  alt="">
+<img src="https://raw.githubusercontent.com/navigator8972/vae_assoc/master/fig/writing_test_camera.png" width=400  alt=""> <img src="https://raw.githubusercontent.com/navigator8972/vae_assoc/master/fig/writing_incomplete_canvas.png" width=380  alt="">
  
  Note the full generative model of image modality can help when the input is not complete: one can first explore in the latent space to find the variable that complements the occluded part and then generate arm motion accordingly.
