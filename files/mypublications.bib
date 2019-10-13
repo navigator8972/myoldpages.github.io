@@ -137,7 +137,7 @@ terms of learning by teaching. The undergoing work about the design of a sensor-
 	pages = {1490-1492},
 	title = {Affect of Robot's Competencies on Children's Perception.},
 	year = {2017},
-	author = {Chandra, Shruti and Paradeda, Raul and Yin, Hang and Dillenbourg, Pierre  and Prada, Rui  and Paiva, Ana}
+	author = {Chandra, Shruti and Paradeda, Raul and Yin, Hang and Dillenbourg, Pierre  and Prada, Rui  and Paiva, Ana},
 
     url = {{https://github.com/navigator8972/navigator8972.github.io/raw/master/files/AffectOfRobotCompetency.pdf}},
 }
@@ -150,7 +150,7 @@ terms of learning by teaching. The undergoing work about the design of a sensor-
 
   journal = auro,
 
-  year         = {2018},
+  year         = {2019},
 
   abstract     = {This paper contributes a novel framework to efficiently learn cost-to-go function representations for robotic tasks with latent modes. The proposed approach relies on the principle behind ensemble methods, where improved performance is obtained by aggregating a group of simple models, each of which can be efficiently learned. The maximum-entropy approximation is adopted as an effective initialization and the quality of this surrogate is guaranteed by a theoretical bound. Our approach also provides an alternative perspective to view the popular mixture of Gaussians under the framework of inverse optimal control. We further propose to enforce a dynamics on the model ensemble, using Kalman estimation to infer and modulate model modes. This allows robots to exploit the demonstration redundancy and to adapt to human interventions, especially in tasks where sensory observations are non-Markovian. The framework is demonstrated with a synthetic inverted pendulum example and online adaptation tasks, which include robotic handwriting and mail delivery. },
 
@@ -185,4 +185,49 @@ terms of learning by teaching. The undergoing work about the design of a sensor-
   abstract     = {},
 
     url = {http://lasa.epfl.ch/publications/uploadedFiles/hyin_rsspioneer.pdf},
+}
+
+
+@phdthesis{Yin2018-ID1017,
+
+  author       = {Yin, H.},
+
+  title        = {Incorporating Human Expertise in Robot Motion Learning and Synthesis},
+
+  school = {EPFL and IST, University of Lisbon},
+
+  year         = {2018},
+
+  url = {{https://github.com/navigator8972/navigator8972.github.io/raw/master/files/thesis_ist_final.pdf}},
+  abstract     = {With the exponential growth of robotics and the fast development of their advanced cognitive and motor capabilities, one can start to envision humans and robots jointly working together in unstructured environments. Yet, for that to be possible, robots need to be programmed for such types of complex scenarios, which demands significant domain knowledge in robotics and control. One viable approach to enable robots to acquire skills in a more flexible and efficient way is by giving them the capabilities of autonomously learn from human demonstrations and expertise through interaction. Such framework helps to make the creation of skills in robots more social and less demanding on programing and robotics expertise. Yet, current imitation learning approaches suffer from significant limitations, mainly about the flexibility and efficiency for representing, learning and reasoning about motor tasks. This thesis addresses this problem by exploring cost-function-based approaches to learning robot motion control, perception and the interplay between them. To begin with, the thesis proposes an efficient probabilistic algorithm to learn an impedance controller to accommodate motion contacts. The learning algorithm is able to incorporate important domain constraints, e.g., about force representation and decomposition, which are nontrivial to handle by standard techniques. Compliant handwriting motions are developed on an articulated robot arm and a multi-fingered hand. This work provides a flexible approach to learn robot motion conforming to both task and domain constraints. Furthermore, the thesis also contributes with techniques to learn from and reason about demonstrations with partial observability. The proposed approach combines inverse optimal control and ensemble methods, yielding a tractable learning of cost functions with latent variables. Two task priors are further incorporated. The first human kinematics prior results in a model which synthesizes rich and believable dynamical handwriting. The latter prior enforces dynamics on the latent variable and facilitates a real-time human intention cognition and an on-line motion adaptation in collaborative robot tasks. Finally, the thesis establishes a link between control and perception modalities. This work offers an analysis that bridges inverse optimal control and deep generative model, as well as a novel algorithm that learns cost features and embeds the modal coupling prior. This work contributes an end-to-end system for synthesizing arm joint motion from letter image pixels. The results highlight its robustness against noisy and out-of-sample sensory inputs. Overall, the proposed approach endows robots the potential to reason about diverse unstructured data, which is nowadays pervasive but hard to process for current imitation learning.},
+
+}
+
+@techreport {Yin2018-ID1018,
+	abstract = {In this paper, we learn dynamics from highdimensional
+demonstrations to facilitate model-based prediction
+and robot control. The proposed approach leverages the
+progress in variational-bayes and sequence modeling, extracting
+a low-dimensional latent space so the dynamical relations of
+interest can be compactly represented and learned. Different
+from existing works, our model captures latent dynamics
+in a more general form and features efficient inference for
+pattern filtering, prediction and synthesis. The extracted feature
+mapping and latent dynamics can be naturally integrated in
+robot learning, yielding task imitation from raw data and
+prediction-based reproduction. The performance of latent dynamics
+learning and model-based imitation is shown in three
+tasks: 1) reconstructing and predicting images of bouncing balls
+movement with an accuracy competitive to the state-of-the art;
+2) synthesizing diverse handwriting image sequences; 3)
+learning to strike a ball under partial visual input, with results
+significantly outperforming baselines.},
+	institution = {Intelligent Agents and Synthetic Characters Group},
+	month = {May},
+	number = {GAIPS-TR-001-17},
+	title = {Learning Variational Latent Dynamics: Towards Model-based Imitation and Control},
+	year = {2018},
+	author = {Yin, H. and Melo, F. S. and Billard, A. and Paiva, A.}
+
+    url = {{https://github.com/navigator8972/navigator8972.github.io/raw/master/files/learnvaedyn2018.pdf}},
 }
