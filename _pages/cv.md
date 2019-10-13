@@ -7,6 +7,6 @@ redirect_from:
   - /resume
 ---
 
-Access my CV from [**link**](https://drive.google.com/open?id=1iHGM4os7kymsW__CqagNBeowFtXCZIxy).
+Access my CV from [**link**](https://github.com/navigator8972/navigator8972.github.io/raw/master/files/cv_hyin.pdf).
 
 
