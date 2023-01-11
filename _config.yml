@@ -81,11 +81,11 @@ author:
   name             : "Hang Yin"
   avatar           : "profile.png"
   bio              : "PhD in Robotics and Artificial Intelligence"
-  location         : "Stockholm"
-  employer         : "https://www.kth.se/rpl" #"https://gaips.inesc-id.pt/"
+  location         : "Copenhagen"
+  employer         : "https://di.ku.dk/english" #"https://www.kth.se/rpl" #"https://gaips.inesc-id.pt/"
   googlescholar    : "https://scholar.google.pt/citations?user=7VW7URUAAAAJ&hl=en.com"
-  email            : "hyin@kth.se" #"hang.yin@epfl.ch"               
-  uri              : "https://www.kth.se/profile/hyin" #"http://lasa.epfl.ch/people/member.php?SCIPER=201766"
+  email            : "hayi At di.ku.dk" #"hyin@kth.se" #"hang.yin@epfl.ch"               
+  uri              : #"https://www.kth.se/profile/hyin" #"http://lasa.epfl.ch/people/member.php?SCIPER=201766"
   bitbucket        :
   codepen          :
   dribbble         :
