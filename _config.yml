@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : &name "Hang Yin"
 description              : &description "PhD in Roboitcs and Artificial Intelligence"
 url                      : https://navigator8972.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/navigator8972.github.io" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "navigator8972/navigator8972.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hang Yin"
+  name             : "Your Sidebar Name"
   avatar           : "profile.png"
-  bio              : "PhD in Robotics and Artificial Intelligence"
-  location         : "Copenhagen"
-  employer         : "https://di.ku.dk/english" #"https://www.kth.se/rpl" #"https://gaips.inesc-id.pt/"
-  googlescholar    : "https://scholar.google.pt/citations?user=7VW7URUAAAAJ&hl=en.com"
-  email            : "hayi At di.ku.dk" #"hyin@kth.se" #"hang.yin@epfl.ch"               
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  bio              : "Your biography for the left-hand sidebar"
+  location         : "Location"
+  employer         :
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "http://yourfullgooglescholarurl.com"
+  email            :  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
